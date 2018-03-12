@@ -1,0 +1,20 @@
+body {
+  background: #F13718;
+  color: #EFE2D5;
+}
+
+#wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#tijd {
+  font-size: 3em;
+}
+
+#sec {
+  font-size: 0.3em;
+}
