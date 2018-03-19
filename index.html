@@ -2,36 +2,35 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link href="css/media.css" rel="stylesheet" type="text/css"/>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/media.css" rel="stylesheet" type="text/css"/>
 
     <link href="https://fonts.googleapis.com/css?family=Prompt:700" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 
-
-
-
     <title>Challenge 2</title>
-
   </head>
+
   <body>
     <div id="wrapper">
-      <section id="groeting">
-        <h1>WELKOM,</h1><h1 id="persoon">BEZOEKER</h1>
-        <div id="form">
-          <input placeholder="Vul uw naam in" type="text" id="naam"/>
-          <button id="button" onclick="getNaam()">ENTER</button>
-        </div>
+      <div id="container">
+        <section id="groeting">
+          <h1>WELKOM,</h1><h1 id="persoon">BEZOEKER</h1>
+          <div id="form">
+            <input placeholder="Vul uw naam in" type="text" id="naam"/>
+            <button id="button" onclick="getNaam()">ENTER</button>
+          </div>
 
-      </section>
-        <div id="tijd">
+        </section>
+          <div id="tijd">
 
+          </div>
+          <span id="dag"></span>
+          <span id="datum"></span>
+          <span id="message"></span>
         </div>
-        <span id="dag"></span>
-        <span id="datum"></span>
-        <span id="message"></span>
     </div>
     <img src="img/raket.png" alt="raket" id="raket" class="raket"/>
 

@@ -3,10 +3,15 @@ function showTijd() {
   var u = date.getHours(); //Pakt de uren
   var m = date.getMinutes(); //Pakt de minuten
   var s = date.getSeconds(); //Pakt de secondes
-
+  
+  u = (u < 10) ? "0" + u : u;
+  m = (m < 10) ? "0" + m : m;
+  s = (s < 10) ? "0" + s : s;
 
   var tijd = u + ":" + m + "<span id='sec'>" + s + "s</span>";
   document.getElementById("tijd").innerHTML = tijd;
+
+
 
   if(u >= 0 && u <= 4){
     document.getElementById("message").innerHTML = "Het is nacht";
